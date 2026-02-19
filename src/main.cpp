@@ -3,7 +3,7 @@
 /**
  * @file main.cpp
  * @brief Embedded RGB LED Control (Digital + PWM)
- * @author shre-coder638(Shreyash Shankar)
+ * @author prashansha-31 (Prashansha Maheshwari)
  * @date 2026-02-17
  *
  * @details
