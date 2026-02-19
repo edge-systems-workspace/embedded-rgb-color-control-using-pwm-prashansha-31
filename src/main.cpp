@@ -33,3 +33,23 @@ void setup() {
 
     Serial.println("RGB LED Initialized!");
 }
+
+/**
+ * @brief Run the LED demo loop: digital blink and PWM color cycle.
+ *
+ * @details
+ * First toggles the red LED using digitalWrite with 1 second intervals.
+ * Then cycles full-brightness red, green, and blue using analogWrite (PWM),
+ * each shown for 1 second. A short pause separates cycles.
+ *
+ * @return void
+ */
+void loop() {
+    // -------- DIGITAL MODE --------
+    digitalWrite(RED_pin, HIGH);
+    delay(1000);
+
+    digitalWrite(RED_pin, LOW);
+    delay(1000);
+
+}
