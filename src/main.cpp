@@ -52,4 +52,22 @@ void loop() {
     digitalWrite(RED_pin, LOW);
     delay(1000);
 
+    // -------- ANALOG (PWM) MODE --------
+    analogWrite(RED_pin, 255);   // Full brightness
+    analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
+
+    analogWrite(RED_pin, 0);
+    analogWrite(GREEN_pin, 255);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
+
+    analogWrite(RED_pin, 0);
+    analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 255);
+    delay(1000);
+
+    delay(500);
+
 }
